@@ -1,8 +1,8 @@
 # npm 搜索工具
 
 ---
-
-下载文件[npm-extensions](npm-extensions.crx)
+[chrome 商城](https://chrome.google.com/webstore/detail/npm-%E6%90%9C%E7%B4%A2%E5%B7%A5%E5%85%B7/nokkfeigeiimdbmjfangcilebeginckf)下载或
+从github 文件中下载 [npm-extensions](npm-extensions.crx)
 
 ## 示例
 
