@@ -40,6 +40,7 @@ function getItemHtml(item) {
     <div class="title"><span>${item.name}</span><span>v${item.version}</span></div>
     <div class="description">${item.description}</div>
     <div class="btns">
+      <a target="_blank" href="${item.links.homepage}">Home</a>
       <a target="_blank" href="${item.links.npm}">NPM</a>
       <a target="_blank" href="${item.links.homepage}">GitHub</a>
     </div>

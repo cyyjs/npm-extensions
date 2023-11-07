@@ -1,18 +1,22 @@
 {
     "name": "npm 搜索工具",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "author": "cyy",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "icons": {
         "16": "img/16.png",
         "32": "img/32.png",
         "48": "img/48.png",
         "128": "img/128.png"
     },
-    "web_accessible_resources": ["img/128.png"],
-    "permissions": ["tabs", "activeTab", "notifications", "https://www.npmjs.com/"],
+    "web_accessible_resources": [{
+        "resources": ["img/128.png"],
+        "matches": []
+    }],
+    "host_permissions": ["https://www.npmjs.com/*"],
+    "permissions": ["notifications"],
     "description": "npm 搜索工具.",
-    "browser_action": {
+    "action": {
         "default_icon": "img/128.png",
         "default_title": "npm 搜索工具",
         "default_popup": "popup.html"

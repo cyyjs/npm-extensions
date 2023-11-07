@@ -23,7 +23,7 @@
             padding: 5px 10px;
             background: #eee;
             margin-bottom: 5px;
-            border-radius: 5px;
+            border-radius: 15px;
         }
         li:hover{
             background: #ddd;
@@ -61,23 +61,26 @@
         .btns>a:last-child{
             background:#544f4f;
         }
+        .btns>a:first-child{
+            background:slategray;
+        }
         input{
             width: 100%;
             margin: 10px 0;
-            padding: 5px;
+            padding: 5px 10px;
             line-height: 30px;
             box-sizing: border-box;
-            border-radius: 5px;
+            border-radius: 45px;
             outline: none;
             border: 1px solid #ccc;
-            font-size: 18px;
+            font-size: 16px;
         }
     </style>
 </head>
 
 <body>
     <div>
-        <input id="keyword" type="text" placeholder="请输入搜索关键字，按Enter键搜索">
+        <input id="keyword" type="text" placeholder="Please enter your search keywords">
     </div>
     <ul id="list"></ul>
     <script src="js/index.js"></script>
